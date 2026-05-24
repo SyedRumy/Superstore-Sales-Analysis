@@ -1,26 +1,36 @@
 # Superstore Retail Sales Analysis
 
 ## Overview
-End-to-end retail sales analysis using SQL to identify regional performance, 
-profit trends, and customer segmentation across 9,994 orders.
+End-to-end retail sales analytics pipeline ingesting data via Azure Data Factory, 
+analyzing 9,994 orders using SQL, and visualizing insights in Power BI and Excel.
 
 ## Tools Used
 - SQL / MySQL
+- Microsoft Excel
+- Azure Data Factory
+- Power BI (dashboard coming soon)
 
 ## Dataset
 - Source: Kaggle — Superstore Sales Dataset
-- 9,994 rows of retail transaction data across 4 regions and 3 customer segments
+- 9,994 rows of retail transaction data
+- 4 regions, 3 customer segments, 3 product categories
+
+## Pipeline Architecture
+1. **Excel** — Data profiling and pivot table analysis
+2. **Azure Data Factory** — Ingested CSV from GitHub into Azure Blob Storage
+3. **SQL/MySQL** — Queried and analyzed data across 5 business questions
+4. **Power BI** — Interactive dashboard (coming soon)
 
 ## Key Insights
-- West region leads in both revenue ($725,457) and profit margin
+- West region leads in revenue ($725,457) and profit margin
 - Central region underperforms due to Furniture/Tables losses (-$2,871)
-- Tables (Furniture) is the most unprofitable subcategory across all regions
-- Consumer segment drives the most revenue ($1,150,166)
-- Home Office has the highest average order value ($246)
+- Tables is the most unprofitable subcategory across all regions
+- Consumer segment drives most revenue ($1,150,166)
+- Home Office has highest average order value ($246)
 - January is peak sales month, July is the slowest
 - Office Supplies produces the highest profit margins
 
-## Queries Included
+## SQL Queries
 1. Total Revenue and Profit by Region
 2. Top 10 Products by Profit Margin
 3. Month Over Month Sales Trend
@@ -30,4 +40,10 @@ profit trends, and customer segmentation across 9,994 orders.
 ## Business Recommendations
 - Reprice or discontinue Tables in the Central region
 - Invest more in Office Supplies — highest margin category
-- Run promotions in July to offset the seasonal sales dip
+- Run promotions in July to offset seasonal sales dip
+
+## Files
+- `Superstore_Sales_Analysis.sql` — All SQL queries
+- `Superstore_Analysis.xlsx` — Excel pivot table analysis
+- `superstore_clean_data.csv` — Raw dataset
+- `Azure_Pipeline_Screenshot.png` — Azure Data Factory pipeline proof
