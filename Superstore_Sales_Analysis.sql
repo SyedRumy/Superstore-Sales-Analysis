@@ -56,6 +56,8 @@ FROM superstore.orders
 GROUP BY Segment
 ORDER BY Total_Sales DESC;
 
+-- END --
+
 
 
 
