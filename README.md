@@ -8,7 +8,7 @@ analyzing 9,994 orders using SQL, and visualizing insights in Power BI and Excel
 - SQL / MySQL
 - Microsoft Excel
 - Azure Data Factory
-- Power BI (dashboard coming soon)
+- Power BI — Interactive dashboard with KPI cards and trend visuals
 
 ## Dataset
 - Source: Kaggle — Superstore Sales Dataset
@@ -47,3 +47,6 @@ analyzing 9,994 orders using SQL, and visualizing insights in Power BI and Excel
 - `Superstore_Analysis.xlsx` — Excel pivot table analysis
 - `superstore_clean_data.csv` — Raw dataset
 - `Azure_Pipeline_Screenshot.png` — Azure Data Factory pipeline proof
+
+## Dashboard
+[View Live Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=696f2e8b-68da-4479-8d05-54259a5f306a&autoAuth=true&ctid=5cdc5b43-d7be-4caa-8173-729e3b0a62d9)
