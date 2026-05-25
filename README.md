@@ -50,3 +50,6 @@ analyzing 9,994 orders using SQL, and visualizing insights in Power BI and Excel
 
 ## Dashboard
 [View Live Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=696f2e8b-68da-4479-8d05-54259a5f306a&autoAuth=true&ctid=5cdc5b43-d7be-4caa-8173-729e3b0a62d9)
+
+## Dashboard Preview
+![Superstore Dashboard](Superstore_Dashboard.png)
